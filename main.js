@@ -27,3 +27,28 @@ ageIn2099(1983);
 // }
 // console.log(factorial(10));
 
+
+
+const arr = ["nikhil","Luna", "sam", "tara", "giao"];
+
+const finder = (arr1, ind) => {
+    return arr1[ind];
+}
+
+console.log(finder(arr, 1));
+
+
+const LunaFinder = (arr1) => {
+    // arr1.array.forEach(element => {
+    //     if (element.toUpperCase() === "LUNA"){
+    //         return true;
+    //     }
+    //     return falser;
+    // });
+    
+   return arr1.includes("Luna");
+}
+
+console.log(LunaFinder(arr));
+
+
