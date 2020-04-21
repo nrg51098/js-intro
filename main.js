@@ -15,3 +15,15 @@ const ageIn2099 = (year) => {
 }
 
 ageIn2099(1983);
+
+
+// const factorial = (num) => {
+
+//     if(num === 1){
+//         return 1;
+//     }else { 
+//     return num * factorial(num - 1);
+//     }
+// }
+// console.log(factorial(10));
+
